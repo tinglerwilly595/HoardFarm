@@ -1,0 +1,19 @@
+{
+    "Author": "Jukkales",
+    "Name": "HoardFarm",
+    "Punchline": "Become an accursed Hoarder!",
+    "Description": "Plugin to help farming DeepDungeon Hoards (...for you)",
+    "InternalName": "HoardFarm",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+        "hoard",
+        "farm",
+        "help",
+        "hoarder",
+        "accursed",
+        "achievement"
+    ],
+    "RepoUrl": "https://github.com/tinglerwilly595/HoardFarm",
+    "IconUrl": "https://github.com/tinglerwilly595/HoardFarm/raw/main/icon.png"
+}

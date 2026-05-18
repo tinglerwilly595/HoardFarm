@@ -1,0 +1,25 @@
+﻿namespace HoardFarm.Model;
+
+public class CollectedData
+{
+    public uint Version => 1;
+    public required string Sender { get; set; } // TODO
+    public double Runtime { get; set; }
+    public bool HoardFound { get; set; }
+    public uint TerritoryTyp { get; set; }
+    public bool? HoardCollected { get; set; }
+    public double? MoveTime { get; set; }
+    public bool SafetyMode { get; set; }
+
+    public bool IsValid()
+    {
+        var valid = Runtime > 0 && TerritoryTyp > 0;
+        
+        if (MoveTime.HasValue)
+        {
+            valid &= MoveTime.Value > 0 && Runtime > MoveTime.Value;
+        }
+
+        return valid;
+    }
+}
