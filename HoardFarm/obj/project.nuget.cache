@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Oh6e8MCCNg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\white\\RiderProjects\\HoardFarm\\HoardFarm\\HoardFarm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\white\\.nuget\\packages\\dalamudpackager\\14.0.1\\dalamudpackager.14.0.1.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\dotnet.reproduciblebuilds\\1.2.39\\dotnet.reproduciblebuilds.1.2.39.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\ecommons\\3.1.0.6\\ecommons.3.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

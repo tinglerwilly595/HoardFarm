@@ -1,0 +1,25 @@
+{
+  "Author": "Jukkales",
+  "Name": "HoardFarm",
+  "InternalName": "HoardFarm",
+  "AssemblyVersion": "0.0.0.0",
+  "Description": "HoardFarm Dalamud Plugin",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/tinglerwilly595/HoardFarm",
+  "Tags": [
+    "hoard",
+    "farm",
+    "help",
+    "hoarder",
+    "accursed",
+    "achievement"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/tinglerwilly595/HoardFarm/raw/main/icon.png",
+  "Punchline": "Become an accursed Hoarder!",
+  "AcceptsFeedback": true
+}

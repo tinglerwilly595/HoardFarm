@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "HoardFarm/0.0.0.0": {
+        "dependencies": {
+          "AutoRetainerAPI": "1.0.0",
+          "ECommons": "3.1.0.6"
+        },
+        "runtime": {
+          "HoardFarm.dll": {}
+        },
+        "resources": {
+          "de/HoardFarm.resources.dll": {
+            "locale": "de"
+          },
+          "fr/HoardFarm.resources.dll": {
+            "locale": "fr"
+          },
+          "ja/HoardFarm.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/HoardFarm.resources.dll": {
+            "locale": "ko"
+          },
+          "zh/HoardFarm.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "ECommons/3.1.0.6": {
+        "runtime": {
+          "lib/net10.0-windows7.0/ECommons.dll": {
+            "assemblyVersion": "3.1.0.6",
+            "fileVersion": "3.1.0.6"
+          }
+        }
+      },
+      "AutoRetainerAPI/1.0.0": {
+        "dependencies": {
+          "ECommons": "3.1.0.6"
+        },
+        "runtime": {
+          "AutoRetainerAPI.dll": {
+            "assemblyVersion": "1.0.0.3",
+            "fileVersion": "1.0.0.3"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HoardFarm/0.0.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommons/3.1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R17fNKyTD5ECL8EustEdjVZc5kbN5WQ4rK/SbSCVzQT6jQtzNC5xjrSBRz3W+YXVHCtyNJ1Aymqh80R4nfDuZA==",
+      "path": "ecommons/3.1.0.6",
+      "hashPath": "ecommons.3.1.0.6.nupkg.sha512"
+    },
+    "AutoRetainerAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
