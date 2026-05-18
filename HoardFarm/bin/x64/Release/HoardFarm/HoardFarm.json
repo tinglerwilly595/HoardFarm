@@ -15,6 +15,7 @@
     "achievement"
   ],
   "DalamudApiLevel": 15,
+  "DownloadLinkInstall": "https://github.com/tinglerwilly595/HoardFarm/releases/download/latest/latest.zip",
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
